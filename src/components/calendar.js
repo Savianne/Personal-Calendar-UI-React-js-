@@ -54,7 +54,7 @@ const CALENDAR = () => {
     const dispatcher = useDispatch();
     const [onViewDate, setOnViewDate] = useState(new Date);
     const [onViewDateText, updateOnViewDateText] = useState('')
-    const [calendarView, switchCalendarView] = useState('event');
+    const [calendarView, switchCalendarView] = useState('month');
     const [dateView, setDateView] = useState('month'); 
     // const [calendarToggleType, setCalendarToggleType] = useState('month');
     const [calendarDateToggle, switchDateToggle] = useState(monthToggle);
